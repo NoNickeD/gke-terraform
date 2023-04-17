@@ -33,10 +33,6 @@ variable "preemptible" {
   default = true
 }
 
-variable "state_bucket" {
-  type    = string
-}
-
 variable "environment" {
   type        = string
   description = "Environment name (test, preprod, or prod)"
